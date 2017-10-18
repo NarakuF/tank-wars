@@ -1,0 +1,1 @@
+The softWare we use for drawing UML don't allow :: for the name of the class, so for all the classes without namesapce, they are in the namespace tankWars, e.g. tankWars::Tank, tankWars::Player. And for the other classes, we overlay the class name with notes, e.g. std::vector<>

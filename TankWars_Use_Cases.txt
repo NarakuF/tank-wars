@@ -1,0 +1,95 @@
+Tank Wars
+
+System
+Name: Tank Wars [ TW ]
+Authors: Gefei Tian, Guandong Liu
+Description: Tank wars project is a war game with 2 players. Each player can control a tank to fight against other player.
+             The game has two different mode, competitive and deathmatch. In the competitive mode, the player who destroys
+             other player's tank wins the game; In the deathmatch mode, one player earns one point by killing other player,
+             and the player who scores more points in the limited time wins the game.
+Organizations: Northeastern university
+Creation Date: Sept.24, 2016
+
+System Actors
+General Player
+
+Description: A player of the Tank Wars. This includes movement, fire, and winning condition.
+
+Use Cases
+
+
+Mode
+Description:
+ The user can choose between two different game mode.
+
+Step-by-step Description:
+
+1. #User - chose the game model
+
+2. #TW - generate the game by the mode that user chose
+
+
+
+Tank
+
+Description:
+ The user can pick from two different type of tanks.
+
+Step-by-step Description:
+
+1. #user - pick the tank by clicking on the image
+
+2. #TW - generate the tank that user chose
+
+
+
+Movement
+
+Description:
+ The user can press the arrow key to move the tank. The system will check if the user is able to move the tank.
+
+Step-by-step Description:
+
+1. #User - A user press the key as input
+
+2. #TW - The system will check if the player is able to move to this way, and react
+
+
+
+Fire
+
+Description:
+ The user can press the key to fire at the other player, or the wall. The system will check player¡¯s target, and react.
+
+Step-by-step Description:
+
+1. #User - Press the key to fire
+
+2. #TW - Check what is the player¡¯s target
+	
+
+
+
+Ultra
+Description:
+ The user can use an ultra skill every 10 sec.
+
+Step-by-step Description:
+
+1. Includes: #Fire
+
+2. #User - Press the key to use the ultra skill
+
+3. #TW - check if the user can use the ultra skill at this moment
+
+
+
+Winning Condition
+Description:
+ After the user fired, TW will check if this user reach the winning condition
+
+Step-by-step Description:
+
+1. Includes: #Fire
+
+2. #TW will check if the user triggers the conditions and win the game, and react
